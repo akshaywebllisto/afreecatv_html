@@ -37,6 +37,13 @@ body {
 	font-family: "Nunito Sans", Sans-serif;
 }
 
+a:hover {
+	text-decoration: none; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Bebas Neue',Sans-serif;
+}
 
 header form.search_form {
     top: -2px;
