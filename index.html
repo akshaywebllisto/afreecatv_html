@@ -1,195 +1,186 @@
 <!DOCTYPE html>
 <html class="campfire" data-commit="e15f6c19663214180def99e62fada9bffa90f2f1">
-
-<head>
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
-
-	<title>xlive - ANGELIUM</title>
-
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Wire+One|Quicksand|Nunito+Sans&display=swap" rel="stylesheet">
-
-	<!-- Links -->
-	<link rel="icon" type="image/x-icon" href="images/favicon.png">
-	
-	<!-- Custom Style -->
-	<link href="fonts/fonts.css" rel="stylesheet">  
-	<link rel="stylesheet" media="all" href="css/main.css">
-	
-</head>
-
-<body>
- 
-	<header class="border border-bottom fixed-top bg-white">
-		<div class="container-fluid p-0">
-			<div class="row no-gutters">
-				<div class="col-12 col-sm-7">
-    				<a class="navbar-brand d-inline-block m-0 p-0" href="#"><img src="images/logo_main.gif" alt="XLIVE" /></a>
-					<form class="form-inline d-inline-block relative search_form">
-				      <input class="form-control" type="search">
-				   		<button class="absolute border-0 bg-transparent" type="submit"><i class="fas fa-search"></i></button>
-				    </form>
-				    <ul class="navbar-nav d-inline-block text-uppercase text-dark nav_first">
-				      <li class="nav-item d-inline-block"><a class="nav-link" href="#"><i class="fas fa-video text-success"></i> Go Live</a></li>
-				      <li class="nav-item d-inline-block"><a class="nav-link" href="#"><i class="fas fa-vr-cardboard text-primary"></i> VR Player</a></li>
-				    </ul>
-				</div>
-				<div class="col-12 col-sm-5">
-					<nav class="navbar navbar-expand-lg f_14_16
-					">
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					    <span class="navbar-toggler-icon"></span>
-					  </button>
-
-					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					    <ul class="navbar-nav mr-auto">
-					      <li class="nav-item first"><a class="nav-link  border-0 m_r_20" href="#"><i class="fas fa-volume-up m_r_5"></i><strong>[Notice]</strong> Afreeca World 49</a></li>
-					      <li class="nav-item"><a class="nav-link" href="#">Help Center</a></li>
-					      <li class="nav-item"><a class="nav-link" href="#">Log In</a></li>
-					      <li class="nav-item"><a class="nav-link border-0" href="#">Sign Up</a></li>
-					      <li class="nav-item mega_menu"><a class="nav-link" href="#"><i class="fas fa-square-full text-primary"></i><i class="fas fa-square-full text-primary"></i><br /><i class="fas fa-square-full text-primary"></i><i class="fas fa-square-full text-primary"></i></a></li>
-			 		    </ul>
-					  </div>
-					</nav>
-				</div>
-			</div>
-		</div>
-
-
-	</header>
-
-
-	<aside class="fixed_left">
-		<ul class="service-list p-0 m-0">
-		   <li class="" data-service="live">
-		      <h3><a href="#" class="title-LIVE"><i class="fas fa-broadcast-tower"></i> LIVE</a><button type="button" class="btn-toggle"></button></h3>
-		      <ul>
-		         <li class=" on" id="all" name="All" menu_idx="744" menu_type="1" action_type="1" action_content="#"><a href="#">All</a></li>
-		      </ul>
-		   </li>
-		   <li class="on" data-service="vod">
-		      <h3><a href="#" class="title-VOD"><i class="fab fa-youtube"></i> VOD</a><button type="button" class="btn-toggle"></button></h3>
-		      <ul>
-				<li class="on" id="vod_all" name="Home" menu_idx="693" menu_type="1" action_type="1" action_content="#"><a href="#">Home</a>
-				</li>
-				<li class="line-bottom" id="popular_vod" name="Popular VOD" menu_idx="694" menu_type="1" action_type="1" action_content="#POPULAR"><a href="#POPULAR">Popular VOD</a>
-				</li>
-				<li class="" id="favorite_clip_vod" name="Favorite User Clip" menu_idx="830" menu_type="1" action_type="1" action_content="#FAVORITECLIP"><a href="#FAVORITECLIP">Favorite User Clip</a>
-				</li>
-				<li class="line-bottom" id="favorite_vod" name="Favorite VOD" menu_idx="696" menu_type="1" action_type="1" action_content="#FAVORITE"><a href="#FAVORITE">Favorite VOD</a>
-				</li>
-				<li class="" id="later_vod" name="Watch Later" menu_idx="698" menu_type="1" action_type="1" action_content="#LATER"><a href="#LATER">Watch Later</a>
-				</li>
-				<li class="" id="recentview_vod" name="Most Recent VOD" menu_idx="699" menu_type="1" action_type="1" action_content="#RECENTVIEW"><a href="#RECENTVIEW">Most Recent VOD</a>
-				</li>
-				<li class="line-bottom" id="up_vod" name="Most UPed VOD" menu_idx="700" menu_type="1" action_type="1" action_content="#UPVOD"><a href="#UPVOD">Most UPed VOD</a>
-				</li>
-				<li class="" id="hotissue_vod" name="Hot Issues" menu_idx="701" menu_type="1" action_type="1" action_content="#HOTISSUE"><a href="#HOTISSUE">Hot Issues</a>
-				</li>
-				<li class="" id="special_vod" name="Special" menu_idx="702" menu_type="1" action_type="1" action_content="#SPECIAL"><a href="#SPECIAL">Special</a>
-				</li>
-				<li class="line-bottom" id="rookie_vod" name="New Streamer" menu_idx="703" menu_type="1" action_type="1" action_content="#ROOKIE"><a href="#ROOKIE">New Streamer</a>
-				</li>
-				<li class="line-bottom" id="category_vod" name="Category" menu_idx="704" menu_type="1" action_type="1" action_content="#ALL"><a href="#ALL">Category</a>
-				</li>
-				<li class="" id="animation" name="Animations" menu_idx="706" menu_type="1" action_type="4" action_content="#"><a href="#" target="_blank">Animations</a>
-				</li>
-				<li class="" id="esports" name="eSports" menu_idx="707" menu_type="1" action_type="4" action_content="#"><a href="#" target="_blank">eSports</a>
-				</li>
-			</ul>
-		   </li>
-		</ul>
-	</aside>
-
-	<section class="main_container">
-		<div class="video_container">
-			<div class="form-row">
-				<div class="col">
-					<h2 class="section_title"><a href="#"><img src="http://admin-cf.img.afreecatv.com/curation/5747598bea1e66b2f.jpg" style="width:34px;height:34px;" alt="">Live Now</a><strong>Recommended Streamers</strong><a href="#" class="show_all">Show All<em></em></a></h2>
-				</div>
-				<div class="w-100"></div>
-				<div class="col">
-					<div class="cast_box">
-						<a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
-					</div>
-				</div>
-					<div class="col">
-					<div class="cast_box">
-						<a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
-					</div>
-				</div>
-					<div class="col">
-					<div class="cast_box">
-						<a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
-					</div>
-				</div>
-					<div class="col">
-					<div class="cast_box">
-						<a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
-					</div>
-				</div>
-				<div class="col">
-					<div class="cast_box">
-						<a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
-					</div>
-				</div>
-				<div class="col">
-					<div class="cast_box">
-						<a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
-					</div>
-				</div>
-				<div class="col">
-					<div class="cast_box">
-						<a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
-					</div>
-				</div>
-				<div class="col">
-					<div class="cast_box">
-						<a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
-					</div>
-				</div>
-
-
-				<div class="col-12">
-					<div class="more_list" style="display: block;"><a href="javascript:;"><span>Show All</span><em></em></a></div>
-				</div>
-			</div>
-		</div>
-
-		<div id="btn_pagetop" style="display: block;"><a href="#top"><span class="ir">Go to Top</span></a></div>
-	</section>
-
-	<footer class="border border-top p_t_20 p_b_10 f_14_16">
-		<div class="container-fluid text-center">
-			<div class="row">
-				<div class="col">
-					<nav class="navbar navbar navbar-expand-lg footer_nav">
-					    <ul class="navbar-nav  mx-auto ">
-					      <li class="nav-item"><a class="nav-link border-0" href="#">Ask 1:1 </a></li>
-					      <li class="nav-item"><a class="nav-link" href="#">Terms of Use</a></li>
-					      <li class="nav-item"><a class="nav-link" href="#">Privacy Policy</a></li>
-					      <li class="nav-item"><a class="nav-link" href="#">Youth Policy</a></li>
-					      <li class="nav-item"><a class="nav-link" href="#">Copyright Policy</a></li>
-					      <li class="nav-item"><a class="nav-link" href="#">Terms of Purchase</a></li>
-					      <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
-					      <li class="nav-item"><select class="custom-select r_0 f_14_16"><option>English</option></select></li>
-					    </ul>
-					</nav>
-					<p class="font_bold">
-					 &copy; XLIVE Corporation
-					</p>
-				</div>	
-			</div>
-		</div>	
-
-	</footer>
-
- 	<!-- Script -->
-	<script src="js/jquery.min.js"  ></script>
-	<script src="js/xlive.js"  ></script>
-
-</body>
-
-</html> 
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+      <title>Xlive - ANGELIUM</title>
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Wire+One|Quicksand|Nunito+Sans&display=swap" rel="stylesheet">
+      <!-- Links -->
+      <link rel="icon" type="image/x-icon" href="images/favicon.png">
+      <!-- Custom Style -->
+      <link href="fonts/fonts.css" rel="stylesheet">
+      <link rel="stylesheet" media="all" href="css/main.css">
+   </head>
+   <body>
+      <header class="border border-bottom fixed-top bg-white">
+         <div class="container-fluid p-0">
+            <div class="row no-gutters">
+               <div class="col-12 col-sm-7">
+                  <a class="navbar-brand d-inline-block m-0 p-0" href="#"><img src="images/logo_main.gif" alt="XLIVE" /></a>
+                  <form class="form-inline d-inline-block relative search_form">
+                     <input class="form-control" type="search">
+                     <button class="absolute border-0 bg-transparent" type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+                  <ul class="navbar-nav d-inline-block text-uppercase text-dark nav_first">
+                     <li class="nav-item d-inline-block"><a class="nav-link" href="#"><i class="fas fa-video text-success"></i> Go Live</a></li>
+                     <li class="nav-item d-inline-block"><a class="nav-link" href="#"><i class="fas fa-vr-cardboard text-primary"></i> VR Player</a></li>
+                  </ul>
+               </div>
+               <div class="col-12 col-sm-5">
+                  <nav class="navbar navbar-expand-lg f_14_16
+                     ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item first"><a class="nav-link  border-0 m_r_20" href="#"><i class="fas fa-volume-up m_r_5"></i><strong>[Notice]</strong> Afreeca World 49</a></li>
+                           <li class="nav-item"><a class="nav-link" href="#">Help Center</a></li>
+                           <li class="nav-item"><a class="nav-link" href="#">Log In</a></li>
+                           <li class="nav-item"><a class="nav-link border-0" href="#">Sign Up</a></li>
+                           <li class="nav-item mega_menu"><a class="nav-link" href="#"><i class="fas fa-square-full text-primary"></i><i class="fas fa-square-full text-primary"></i><br /><i class="fas fa-square-full text-primary"></i><i class="fas fa-square-full text-primary"></i></a></li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <aside class="fixed_left">
+      <div id="perfectScrollbar" class="aside_scrollable">
+         <ul class="service-list p-0 m-0">
+            <li class="" data-service="live">
+               <h3><a href="#" class="title-LIVE"><i class="fas fa-broadcast-tower"></i> LIVE</a><button type="button" class="btn-toggle"></button></h3>
+               <ul>
+                  <li class=" on" id="all" name="All" menu_idx="744" menu_type="1" action_type="1" action_content="#"><a href="#">All</a></li>
+               </ul>
+            </li>
+            <li data-service="vod">
+               <h3><a href="#" class="title-VOD"><i class="fab fa-youtube"></i> VOD</a><button type="button" class="btn-toggle"></button></h3>
+               <ul>
+                  <li class="on" id="vod_all" name="Home" menu_idx="693" menu_type="1" action_type="1" action_content="#"><a href="#">Home</a>
+                  </li>
+                  <li class="line-bottom" id="popular_vod" name="Popular VOD" menu_idx="694" menu_type="1" action_type="1" action_content="#POPULAR"><a href="#POPULAR">Popular VOD</a>
+                  </li>
+                  <li class="" id="favorite_clip_vod" name="Favorite User Clip" menu_idx="830" menu_type="1" action_type="1" action_content="#FAVORITECLIP"><a href="#FAVORITECLIP">Favorite User Clip</a>
+                  </li>
+                  <li class="line-bottom" id="favorite_vod" name="Favorite VOD" menu_idx="696" menu_type="1" action_type="1" action_content="#FAVORITE"><a href="#FAVORITE">Favorite VOD</a>
+                  </li>
+                  <li class="" id="later_vod" name="Watch Later" menu_idx="698" menu_type="1" action_type="1" action_content="#LATER"><a href="#LATER">Watch Later</a>
+                  </li>
+                  <li class="" id="recentview_vod" name="Most Recent VOD" menu_idx="699" menu_type="1" action_type="1" action_content="#RECENTVIEW"><a href="#RECENTVIEW">Most Recent VOD</a>
+                  </li>
+                  <li class="line-bottom" id="up_vod" name="Most UPed VOD" menu_idx="700" menu_type="1" action_type="1" action_content="#UPVOD"><a href="#UPVOD">Most UPed VOD</a>
+                  </li>
+                  <li class="" id="hotissue_vod" name="Hot Issues" menu_idx="701" menu_type="1" action_type="1" action_content="#HOTISSUE"><a href="#HOTISSUE">Hot Issues</a>
+                  </li>
+                  <li class="" id="special_vod" name="Special" menu_idx="702" menu_type="1" action_type="1" action_content="#SPECIAL"><a href="#SPECIAL">Special</a>
+                  </li>
+                  <li class="line-bottom" id="rookie_vod" name="New Streamer" menu_idx="703" menu_type="1" action_type="1" action_content="#ROOKIE"><a href="#ROOKIE">New Streamer</a>
+                  </li>
+                  <li class="line-bottom" id="category_vod" name="Category" menu_idx="704" menu_type="1" action_type="1" action_content="#ALL"><a href="#ALL">Category</a>
+                  </li>
+                  <li class="" id="animation" name="Animations" menu_idx="706" menu_type="1" action_type="4" action_content="#"><a href="#" target="_blank">Animations</a>
+                  </li>
+                  <li class="" id="esports" name="eSports" menu_idx="707" menu_type="1" action_type="4" action_content="#"><a href="#" target="_blank">eSports</a>
+                  </li>
+               </ul>
+            </li>
+            <li class="" data-service="live">
+               <h3><a href="#" class="title-FAV"><i class="far fa-star"></i> Favorites</a><button type="button" class="btn-toggle"></button></h3>
+               <ul>
+                  <li class="" id="favorite" name="Favorites"><a href="#">Favorites</a></li>
+                  <li class="" id="fanBJ" name="Fan Club Broadcasters"><a href="#">Fan Club Broadcasters</a></li>
+                  <li class="" id="lately" name="Recently Watched"><a href="#">Recently Watched</a></li>
+               </ul>
+            </li>
+            <li class="side-menu"><ul><li id="cs"><a href="#" target="_blank">Help Center</a></li></ul></li>
+         </ul>
+      </div>
+      </aside>
+      <section class="main_container">
+         <div class="video_container">
+            <div class="form-row">
+               <div class="col">
+                  <h2 class="section_title"><a href="#"><img src="http://admin-cf.img.afreecatv.com/curation/5747598bea1e66b2f.jpg" style="width:34px;height:34px;" alt="">Live Now</a><strong>Recommended Streamers</strong><a href="#" class="show_all">Show All<em></em></a></h2>
+               </div>
+               <div class="w-100"></div>
+               <div class="col">
+                  <div class="cast_box">
+                     <a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="cast_box">
+                     <a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="cast_box">
+                     <a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="cast_box">
+                     <a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="cast_box">
+                     <a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="cast_box">
+                     <a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="cast_box">
+                     <a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="cast_box">
+                     <a href="#" onclick="javascript: oAnalysisUtil.sendLiveInflowLog('aflol',219820564, ['main','curation']);" class="box_link"><span class="grbox"></span><span class="thumb"><img src="http://liveimg-cf.afreecatv.com/219820564_480x270.gif?26295026" onerror="this.src='http://res.afreecatv.com/images/afmain/img_thumb_v.gif'" title=""></span><span class="live_type">LIVE</span><span class="info"><em class="grade">8000K</em><span class="time">2019-12-30 16:50:12 Start Time</span></span><span class="subject">[한화생명 vs 아프리카] 2019 LoL 케스파컵 8강 2라운드</span><span class="viewer"><em></em>3,725 Viewers</span><span class="count"><em class="pc"></em>2,994<em class="mobile"></em>731</span></a><a href="javascript:;" user_id="aflol" class="nick">LoL_공식</a><span class="laterwatch"><a href="javascript:;" id="laterview_push" data-vod-type="LIVE" data-broad-no="219820564" class="icon"><span class="btn">추가하기</span><em class="ttip">Watch Later<span class="arr"></span></em></a></span>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="more_list" style="display: block;"><a href="javascript:;"><span>Show All</span><em></em></a></div>
+               </div>
+            </div>
+         </div>
+         <div id="btn_pagetop" style="display: block;"><a href="#top"><span class="ir">Go to Top</span></a></div>
+      </section>
+      <footer class="border border-top p_t_20 p_b_10 f_14_16">
+         <div class="container-fluid text-center">
+            <div class="row">
+               <div class="col">
+                  <nav class="navbar navbar navbar-expand-lg footer_nav">
+                     <ul class="navbar-nav  mx-auto ">
+                        <li class="nav-item"><a class="nav-link border-0" href="#">Ask 1:1 </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Terms of Use</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Privacy Policy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Youth Policy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Copyright Policy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Terms of Purchase</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+                        <li class="nav-item">
+                           <select class="custom-select r_0 f_14_16">
+                              <option>English</option>
+                           </select>
+                        </li>
+                     </ul>
+                  </nav>
+                  <p class="font_bold">
+                     &copy; XLIVE Corporation
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Script -->
+      <script src="js/main.js"  ></script>
+   </body>
+</html>
