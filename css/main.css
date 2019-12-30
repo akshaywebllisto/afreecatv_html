@@ -62,7 +62,7 @@ header ul.nav_first li {
 
 header ul.nav_first li a {
     color: #333;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header .navbar-expand-lg .navbar-nav a.nav-link {
@@ -151,6 +151,7 @@ aside.fixed_left .service-list>li h3 .btn-toggle {
     font: 0/0 a;
     outline: none;
     z-index: 5;
+    border:0px;
 }
 
 aside.fixed_left .service-list>li h3 .btn-toggle:before {
@@ -166,3 +167,61 @@ aside.fixed_left .service-list>li h3 .btn-toggle:before {
     transition: opacity .2s;
     opacity: 0;
 } 
+
+aside.fixed_left .service-list>li h3 .btn-toggle:after {
+	content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(77,77,77,0.999)' stroke='' viewBox='0 0 11 6' %3e%3cpath d='m5.884 5.985-4.781-5.076c-0.193-0.204-0.181-0.523 0.027-0.713s0.532-0.18 0.726 0.027l4.028 4.276 4.028-4.276c0.193-0.207 0.517-0.217 0.725-0.027s0.22 0.509 0.028 0.713l-4.781 5.076z'/%3e%3c/svg%3e") 50% 50% no-repeat;
+    background-size: 100% 100%;
+    width: 11px;
+    height: 6px;
+    margin: -3px 0 0 -6px;
+    transition: all .2s ease;
+}
+
+aside.fixed_left .service-list>li.on h3 .btn-toggle:after {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(77,77,77,0.999)' stroke='' viewBox='0 0 11 6' %3e%3cpath d='m5.884 5.985-4.781-5.076c-0.193-0.204-0.181-0.523 0.027-0.713s0.532-0.18 0.726 0.027l4.028 4.276 4.028-4.276c0.193-0.207 0.517-0.217 0.725-0.027s0.22 0.509 0.028 0.713l-4.781 5.076z'/%3e%3c/svg%3e") 50% 50% no-repeat;
+    background-size: 100% 100%;
+    margin-left: -5px;
+    transform: rotate(180deg);
+}
+
+aside.fixed_left .service-list>li h3 .btn-toggle:hover:before {
+    opacity: 1;
+}
+
+aside.fixed_left .service-list>li.on[data-service=vod],
+aside.fixed_left .service-list>li.on[data-service=live] {
+    max-height: 1000px;
+}
+
+aside.fixed_left .service-list>li ul {
+    padding: 0 49px 17px 54px;
+}
+
+aside.fixed_left .service-list>li ul li {
+	list-style: none;
+}
+
+aside.fixed_left .service-list>li ul li a {
+    display: block;
+    padding: 5px 0 6px;
+    color: #565656;
+    font-size: 13px;
+}
+
+aside.fixed_left .service-list>li ul li.on a {
+    color: #386cff;
+}
+
+aside.fixed_left .service-list>li ul li.line-bottom {
+    padding-bottom: 7px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e5ebf2;
+}
+
+footer.border {
+    padding-left: 209px;
+}
