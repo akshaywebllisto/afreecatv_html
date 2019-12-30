@@ -225,3 +225,199 @@ aside.fixed_left .service-list>li ul li.line-bottom {
 footer.border {
     padding-left: 209px;
 }
+
+.main_container {
+    padding-left: 208px;
+    height: 1000px;
+    padding-top: 69px;
+    display: block;
+    width: 100%;
+}
+
+.video_container {
+	max-width: 960px;
+	margin: 18px auto 30px;
+}
+
+.video_container h2.section_title {
+    position: relative;
+    margin-bottom: 8px;
+    color: #386cff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.video_container h2.section_title strong {
+	margin-left: 8px;
+    color: #64656a;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.video_container h2.section_title a.show_all {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding-right: 6px;
+    font-size: 13px;
+    color: #787878;
+}
+
+
+
+/* 썸네일 */
+.cast_box {margin-bottom: 30px; position:relative;display:block;width:226px;height:196px;border:1px solid #d8d8d8;border-radius:5px;background:#fff}
+.cast_box.rank .ranking {display:block;position:absolute;top:136px;left:0;width:43px;z-index:30;font-size:28px;line-height:100%;color:#666; letter-spacing: -1px; text-align:center;transition:all .2s ease-out;-webkit-transition:all .2s ease-out 0s;}
+.cast_box.rank .ranking strong {font-weight:normal;color:#386cff;font-size:37px;line-height:100%;transition:all .2s ease-out;}
+.cast_box.rank .subject {width:171px;height:17px;padding:10px 12px 0 43px;}
+.cast_box.rank .vod {left:45px;}
+.cast_box.rank .views {top:165px;}
+.cast_box.rank .nick {top:160px; left:40px;}
+.cast_box .box_link {display:block;height:196px;text-decoration:none !important;}
+.cast_box:focus .info .grade {color:#fff }
+.cast_box:focus .info .time {color:#cecdcd }
+.cast_box:hover .grbox{display:block;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity:0.5;}
+.cast_box:hover .subject {
+    top: 108px;
+    height: 50px;
+}
+.cast_box:hover .ranking{top:117px;/*transform:translate3d(0,0,0) scale(1) rotateZ(360deg)*/}
+.cast_box:hover .ranking strong {}
+.cast_box:hover .info{display:block;-moz-opacity:1;-khtml-opacity: 1;opacity:1;}
+.cast_box:hover .viewer{display:none;}
+.cast_box:hover .count{display:block;}
+.cast_box:hover .cast_delete {display:block}
+.cast_box:hover .vtime {top:84px;}
+.cast_box:hover .watchedvod {top:84px;}
+.cast_box .live_type,
+.cast_box .hl_type,
+.cast_box .vod_type {position:absolute; left:4px; top:4px; z-index:11;background:#1987da;font-size:11px;color:#fff;padding:1px 3px 0;line-height:1.4em; border:1px solid #0575c5; border-radius:3px; font-family:nanumgothic,ng;} /* 2016-10-11 추가, 2017-07-07 수정 */
+.cast_box .live_type {background:#ff1e1e; border:1px solid #f50404; padding-top:0;width:32px;text-align:center} /* 2017-07-07 추가 */
+.cast_box .hl_type {background:#ff572e; border:1px solid #f4451b;} /* 2017-07-07 추가 */
+.cast_box .thumb {position:absolute;top:-1px;left:-1px}
+.cast_box .thumb img {width:228px;height:128px;vertical-align:top;border-radius:5px 5px 0 0}
+.cast_box .grbox {display:block;position:absolute;left:-1px;top:-1px;z-index:10;width:228px;height:128px;background-color:#000;zoom:1;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0;opacity:0;transition:all .2s ease-out;-webkit-transition:all .2s ease-out 0s;border-radius:5px 5px 0 0}
+.cast_box .info {display:block;display:/*\**/none\9;position:absolute;top:88px;left:0;z-index:20;width:100%;-moz-opacity:0;-khtml-opacity:0;opacity:0;transition:all .2s ease-out;-webkit-transition:all .2s ease-out 0s;}
+.cast_box .info .grade {display:block;position:absolute;top:-1px;left:5px;width:45px;height:15px;line-height:15px;color:#fff;font-size:10px;font-family:arial;text-align:center;background:url('/images/afmain/img_main.png') no-repeat -469px -55px;}
+.cast_box .info .time {position:absolute;top:0;right:5px;line-height:15px;color:#cecdcd;font-size:11px;font-family:arial;}
+.cast_box .info .vr {display:block; position:absolute; top:-84px; right:5px; background:url('/images/afmain/ic_main_vr.png') 0 0 no-repeat; width:45px; height:27px; font:0/0 a;}
+.cast_box .subject {
+    font-size: 13px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 127px;
+    left: 0;
+    z-index: 20;
+    height: 30px;
+    padding: 10px 12px 0 12px;
+    border-top: none;
+    border-bottom: none;
+    line-height: 140%;
+    color: #333;
+    background: #fff;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out 0s;
+    word-break: break-all;
+}
+.cast_box .nick {display:inline-block;height:auto;position:absolute;top:171px;left:8px;padding:4px;color:#4279ff;font-size:11px;white-space:nowrap}
+.cast_box .nick:hover {text-decoration:underline !important}
+
+/* 방송중 닉넴옆 아이콘 추가 180420 */
+.cast_box .nick_wrap {position:absolute; top:171px; left:8px; font-size:0;}
+.cast_box .nick_wrap .nick {position:static; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:80px; vertical-align:middle; transition:all 0.2s ease;}
+.cast_box .nick_wrap > span {display:inline-block; *display:inline; zoom:1; background:url(/images/afmain/img_main.png) -9999em -9999em no-repeat; height:13px; margin-right:2px; font:0/0 a; vertical-align:middle;}
+.cast_box .nick_wrap > span.ico_subscribe {background-position:-110px -199px; width:16px;}
+.cast_box .nick_wrap > span.ico_fan {background-position:-130px -199px; width:12px;}
+html[lang="en"] .cast_box .nick_wrap > span.ico_fan ,
+html[lang="zh"] .cast_box .nick_wrap > span.ico_fan ,
+html[lang="ja"] .cast_box .nick_wrap > span.ico_fan ,
+html[lang="th"] .cast_box .nick_wrap > span.ico_fan {background-position:-147px -199px;}
+
+.cast_box:hover .nick_wrap .nick {max-width:110px;}
+.cast_box:hover .nick_wrap > span {display:none;}
+
+
+
+.cast_box .viewer {display:block;position:absolute;top:175px;right:12px;color:#999;font-size:11px}
+.cast_box .viewer em {display:inline-block;width:11px;height:8px;font-size:0;vertical-align:middle;margin:0 4px 2px 0;background:url('/images/afmain/img_main.png') no-repeat -551px 0;}
+.cast_box .views {display:block;position:absolute;top:175px;right:12px;color:#999;font-size:11px}
+.cast_box .views em {display:inline-block;width:7px;height:8px;font-size:0;vertical-align:middle;margin:0 4px 2px 0;background:url('/images/afmain/img_main.png') no-repeat -551px -11px;}
+.cast_box .view {display:block;position:absolute;top:175px;right:12px;color:#999;font-size:11px}
+.cast_box .view em {display:inline-block;width:11px;height:8px;font-size:0;vertical-align:middle;margin:0 4px 2px 0;background:url('/images/afmain/img_main.png') no-repeat -551px 0;}
+.cast_box .count {display:none;position:absolute;top:175px;right:12px;color:#999;font-size:11px}
+.cast_box .count .pc {display:inline-block;width:11px;height:10px;font-size:0;vertical-align:middle;margin:0 4px 2px 0;background:url('/images/afmain/img_main.png') no-repeat -562px 0;}
+.cast_box .count .mobile {display:inline-block;width:7px;height:10px;font-size:0;vertical-align:middle;margin:0 4px 2px 8px;background:url('/images/afmain/img_main.png') no-repeat -573px 0;}
+.cast_box .cast_delete {display:none;position:absolute;bottom:42px;right:10px;}
+.cast_box .vtime {position:absolute;top:103px;right:4px;z-index:20;display:block;padding:4px 5px;font-size:11px;line-height:100%;color:#fff;border-radius:3px;background-color:#000;zoom:1;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity:0.7;transition:all .2s ease-out;-webkit-transition:all .2s ease-out 0s;}
+.cast_box .watchedvod {position:absolute;top:103px;left:5px;z-index:20;display:block;padding:4px 4px 0px 15px;font-size:11px;height:15px;line-height:1.1em;color:#08ff42;letter-spacing:-1px;border-radius:3px;background-color:#000;zoom:1;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity:0.7;transition:all .2s ease-out;-webkit-transition:all .2s ease-out 0s;} /* 2017-05-18 추가 */
+.cast_box .watchedvod .ic {position:absolute;top:50%;left:5px;z-index:20;display:block;width:8px;height:6px;margin:-3px 0 0; background:url('/images/afmain/img_main.png') no-repeat -105px -179px;} /* 2017-05-18 추가 */
+.cast_box .ic_1080p {position:absolute;top:6px;left:6px;z-index:20;display:block;width:59px;height:24px;text-indent:-99999px;background:url('/images/afmain/img_main.png') no-repeat -384px -100px;}
+.cast_box .ic_ppv { position:absolute;top:6px;left:6px;z-index:20;display:block;height:22px; padding: 0 9px 0 8px; border: 1px solid #00c9f4;  border-radius: 12px; background: url('/images/afmain/transparent_7.png') repeat;}
+.cast_box .ic_ppv em { padding-left: 18px; color: #00c9f4; font-size: 13px; vertical-align: -3px; letter-spacing: -1px; background:url('/images/afmain/img_main.png') no-repeat -384px -156px; }
+
+.cast_box .ic_wrap { position:absolute;top:6px;left:6px;z-index:20; font-size: 0; }
+.cast_box .ic_allow { opacity: 0; height:22px; padding: 0 9px 0 8px; line-height: 22px; color: #00c9f4;  border: 1px solid #00c9f4;  border-radius: 12px; background: url('/images/afmain/transparent_7.png') repeat;  -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.cast_box .ic_wrap .ic_1080p , .cast_box .ic_wrap .ic_ppv , .cast_box .ic_allow { position: static; display: inline-block; vertical-align: top; font-size: 12px; }
+.cast_box .ic_wrap span:first-child { margin-left: 0; }
+.cast_box .ic_wrap span { margin-left: 4px; }
+.cast_box:hover .ic_allow { opacity: 1; }
+
+
+/* 동영상 조회수 */
+.cast_box .vod {display:block;position:absolute;top:165px;left:13px;color:#999;font-size:11px}
+.cast_box .vod em {display:inline-block;font-size:0;vertical-align:middle;background:url('/images/afmain/img_main.png') no-repeat}
+.cast_box .vod .play {width:9px;height:13px;margin:0 2px 3px 0; background-position:-197px -164px;}
+.cast_box .vod .up {width:14px;height:14px;margin:0 2px 2px 9px;background-position:-208px -164px}
+.cast_box .vod .cm {width:12px;height:13px;margin:0 2px 3px 9px;background-position:-222px -164px;}
+/* 나중에보기 2017-05-18 추가 */
+.cast_box .laterwatch {filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0;opacity:0; position:absolute; top:59px; left:0; right:5px; z-index:99;}
+.cast_box:hover .laterwatch {filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity: 1;opacity:1;}
+.cast_box .laterwatch a.icon {position:absolute; top:0; right:0px; width:21px; height:21px;}
+.cast_box .laterwatch a.icon .btn {display:block; width:21px; height:21px; font:0/0 a; background:url('/images/afmain/img_main.png') -444px -84px no-repeat;}
+.cast_box .laterwatch .ttip {display:none; position:absolute; top:-32px; right:-1px; margin:0; width:70px; text-align:center; padding:3px 0 4px; color:#d0d0d0; letter-spacing:-1px; border-radius:3px; background:#333; background:rgba( 0, 0, 0, .8 );}
+.cast_box .laterwatch a.icon:hover .ttip {display:block;}
+.cast_box .laterwatch .ttip .arr {position:absolute; bottom:-5px; right:8px; margin:0; display:block; width:8px; height:5px; font:0/0 a; background:url('/images/afmain/img_main.png') -466px -84px no-repeat;}
+
+/* VOD 리스트에 360도 아이콘 추가 */
+.cast_box .vr {display:block; position:absolute; top:8px; right:8px; background:url('/images/afmain/ic_main_vr.png') 0 0 no-repeat; width:45px; height:27px; font:0/0 a;}
+
+
+.more_list a {
+	display: block;
+    height: 30px;
+    border: 1px solid #e3e3e3;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    background: #fafafa;
+    line-height: 30px;
+}
+
+.more_list a em {
+    display: inline-block;
+    width: 11px;
+    height: 6px;
+    vertical-align: middle;
+    margin: 0 0 2px 9px;
+    line-height: 100%;
+    background: url(../images/afmain/img_main.png) no-repeat -531px -55px;
+}
+
+#btn_pagetop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 108px;
+    z-index: 7000;
+}
+
+#btn_pagetop a {
+    overflow: hidden;
+    display: block;
+    width: 44px;
+    font-size:0px;
+    height: 37px;
+    background: url(../images/afmain/img_main.png) no-repeat -259px -85px;
+}
